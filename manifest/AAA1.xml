@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Lead.Bussines_Line__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Lead-Lead Layout</members>
+        <members>Lead-Lead (Marketing) Layout</members>
+        <members>Lead-Lead (Sales) Layout</members>
+        <members>Lead-Lead (Support) Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>InsertedLeadTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>InsertedLeadTriggerHelper</members>
+        <members>InsertedLeadTriggerHelperTest</members>
+        <members>TestDataFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <version>54.0</version>
+</Package>
